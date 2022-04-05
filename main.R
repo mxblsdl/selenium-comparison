@@ -37,7 +37,7 @@ el <- remDr$findElement(using = "css selector", value = ".tab-buttons > ul:nth-c
 el$clickElement()
 
 
-# Sleep the system for 60 seconds and then close all connections
+# Sleep the system for 45 seconds and then close all connections
 Sys.sleep(45)
 
 remDr$close()
